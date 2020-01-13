@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<?xml version="1.0" ?><rss version="2.0">
   <channel>
     <title>Template</title>
     <description>This is a template RSS feed.</description>
@@ -14,5 +13,5 @@
       <title>Item 2</title>
       <description>This is another item</description>
     </item>
-  </channel>
+  <item><title>Item 3</title><description>foobar</description></item></channel>
 </rss>
