@@ -3,6 +3,8 @@
     <title>Template</title>
     <description>This is a template RSS feed.</description>
     <link>http://www.rlamacraft.uk</link>
+    <lastBuildDate>Mon, 13 Jan 2020 20:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 13 Jan 2020 20:00:00 +0000</pubDate>
 
     <item>
       <title>Item 1</title>
@@ -13,5 +15,10 @@
       <title>Item 2</title>
       <description>This is another item</description>
     </item>
-  <item><title>Item 3</title><description>foobar</description></item></channel>
+    
+    <item>
+      <title>Item 3</title>
+      <description>foobar</description>
+    </item>
+  </channel>
 </rss>
