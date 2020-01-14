@@ -10,23 +10,27 @@
 
     <item>
       <title>Item 1</title>
-      <description>This is an example feed item</description>      
+      <description>This is an example feed item</description>
+      <guid>1</guid>
     </item>
 
     <item>
       <title>Item 2</title>
       <description>This is another item</description>
+      <guid>2</guid>
     </item>
     
     <item>
       <title>Item 3</title>
       <description>foobar</description>
+      <guid>3</guid>
     </item>
 
     <item>
       <title>Item 4</title>
       <description>A fourth item</description>
       <pubDate>Mon, 13 Jan 2020 20:47:00 +0000</pubDate>
+      <guid>4</guid>
     </item>
 
     <item>
