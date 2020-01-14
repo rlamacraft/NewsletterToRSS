@@ -3,8 +3,8 @@
     <title>Template</title>
     <description>This is a template RSS feed.</description>
     <link>http://www.rlamacraft.uk</link>
-    <lastBuildDate>Mon, 13 Jan 2020 21:41:00 +0000</lastBuildDate>
-    <pubDate>Mon, 13 Jan 2020 20:47:00 +0000</pubDate>
+    <lastBuildDate>Tue, 14 Jan 2020 18:15:00 +0000</lastBuildDate>
+    <pubDate>Tue, 14 Jan 2020 18:15:00 +0000</pubDate>
     <ttl>5</ttl>
     <atom:link href="https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -37,6 +37,14 @@
       <title>Item 5</title>
       <description>A fifth item</description>
       <pubDate>Mon, 13 Jan 2020 21:41:00 +0000</pubDate>
+      <guid>5</guid>
+    </item>
+    
+    <item>
+      <title>Item 6</title>
+      <description>A sixth item</description>
+      <pubDate>Tue, 14 Jan 2020 18:15:00 +0000</pubDate>
+      <guid>6</guid>
     </item>
   </channel>
 </rss>
