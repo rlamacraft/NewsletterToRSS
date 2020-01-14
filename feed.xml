@@ -11,40 +11,40 @@
     <item>
       <title>Item 1</title>
       <description>This is an example feed item</description>
-      <guid>1</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#1</guid>
     </item>
 
     <item>
       <title>Item 2</title>
       <description>This is another item</description>
-      <guid>2</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#2</guid>
     </item>
     
     <item>
       <title>Item 3</title>
       <description>foobar</description>
-      <guid>3</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#3</guid>
     </item>
 
     <item>
       <title>Item 4</title>
       <description>A fourth item</description>
       <pubDate>Mon, 13 Jan 2020 20:47:00 +0000</pubDate>
-      <guid>4</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#4</guid>
     </item>
 
     <item>
       <title>Item 5</title>
       <description>A fifth item</description>
       <pubDate>Mon, 13 Jan 2020 21:41:00 +0000</pubDate>
-      <guid>5</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#5</guid>
     </item>
     
     <item>
       <title>Item 6</title>
       <description>A sixth item</description>
       <pubDate>Tue, 14 Jan 2020 18:15:00 +0000</pubDate>
-      <guid>6</guid>
+      <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#6</guid>
     </item>
   </channel>
 </rss>
