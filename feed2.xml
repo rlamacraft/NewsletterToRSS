@@ -6,7 +6,7 @@
     <lastBuildDate>Thu, 16 Jan 2020 10:35:00 +0000</lastBuildDate>
     <pubDate>Thu, 16 Jan 2020 10:35:00 +0000</pubDate>
     <ttl>5</ttl>
-    <atom:link href="https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Item 1</title>
@@ -60,5 +60,5 @@
       <pubDate>Thu, 16 Jan 2020 10:35:00 +0000</pubDate>
       <guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#8</guid>
     </item>
-  </channel>
+  <item><title>Item 9</title><description>foo</description><guid>https://raw.githubusercontent.com/rlamacraft/NewsletterToRSS/master/feed.xml#9</guid><pubDate>Thu, 17 Feb 2020 19:10:38 +0000</pubDate></item></channel>
 </rss>
