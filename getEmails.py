@@ -51,6 +51,13 @@ def get_label(service):
             selection = int(input())
         return labels[selection]
 
+class Email:
+    def __init__(self, subject):
+        self.subject = subject
+
+    def subject(self):
+        return self.subject
+    
 def get_emails(service, label):
     results = service.users().messages().list(
         userId='me',
@@ -62,16 +69,19 @@ def get_emails(service, label):
         print('No new mail today.')
     else:
 
+        emails = []
         for message in messages:
-            email = service.users().messages().get(
+            emails.append(service.users().messages().get(
                 userId='me',
                 id=message['id'],
                 format='full'
-            ).execute()
-            print('Subject: "'+list(filter(lambda header: header['name'] == 'Subject', email['payload']['headers']))[0]['value']+'"')
-    
+            ).execute())
+        return(emails)    
 
 if __name__ == '__main__':
     service = auth()
     label = get_label(service)
     emails = get_emails(service, label)
+    
+    for email in emails:
+        print('Subject: "'+list(filter(lambda header: header['name'] == 'Subject', email['payload']['headers']))[0]['value']+'"')
